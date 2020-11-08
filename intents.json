@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "hi",
       "patterns": [
         "Hi",
         "Hey",
@@ -11,12 +11,29 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hey",
+        "Hello, how can I help?",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
     },
+    {
+  "intents": [
+    {
+      "tag": "intro",
+      "patterns": [
+        "you",
+        "about you",
+        "i want to known about you",
+        "tell me about you",
+        "introduct",
+        "your story"
+      ],
+      "responses": [
+        "Our story starts with one man named Ray Kroc",
+        "Back in 1954, a man named Ray Kroc discovered a small burger restaurant in California, and wrote the first page of our history."
+      ]
+    }
     {
       "tag": "ok",
       "patterns": [
